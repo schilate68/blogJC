@@ -5,30 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/blog-home-style.css">
     <title>JC Blog Home</title>
 </head>
 
 <body>
-    <header>
-        <nav>JC BLOG</nav>
-
-    </header>
     <main>
+        <header>
+            <nav>
+                <h2 id="title-nav">JC Blog</h2>
+                <form action="" id="search-form">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </nav>
+        </header>
+
         <div id="title">
-            <h1>JC Blog</h1>
-            <h3>The blog about something.</h3>
+            <h1>The JC Blog</h1>
+            <p>The blog about something that I want to write at some point. I still do not know what but is fine to
+                just say random stuff for now.</p>
         </div>
+        <hr>
+        <section id="blogs">
+            <a href="blog-entry.html">
+                <div id="intro">
+                    <div class="card">
+                        <img src="/media/colorsIntro.jpg" alt="abstract colors">
+                        <div class="card-content">
+                            <h3>The reason for this blog</h3>
+                            <button>Read</button>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <hr>
 
+            <div id="container-posts">
+                <h2>All Posts</h2>
+                <div class="card">
+                    <img src="/media/gradienta.jpg" alt="abstract colors">
+                    <div class="card-content">
+                        <p>May 2021</p>
+                        <h3>An older blog</h3>
+                        <button>Read Me</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/media/fakurianunsplash.jpg" alt="abstract colors">
+                    <div class="card-content">
+                        <p>April 2021</p>
+                        <h3>An older blog</h3>
+                        <button>Read</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/media/fakurian-design-DgtbXKO1UOY-unsplash.jpg" alt="abstract colors">
+                    <div class="card-content">
+                        <p>February 2021</p>
+                        <h3>An older blog</h3>
+                        <button>Read</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
-
+        <hr>
+        <footer>
+            <a href="">Linkedin</a>
+            <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                    href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+        </footer>
     </main>
-
-    <footer>
-        <a href="">Linkedin</a>
-
-    </footer>
-
 </body>
 
 </html>
