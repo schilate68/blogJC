@@ -1,3 +1,5 @@
+@import url("blog-footer.css");
+
 body {
   margin: 0px;
   padding: 0px;
@@ -26,7 +28,8 @@ nav {
   width: 100%;
   padding: 20px;
   align-items: center;
-  max-width: 95%;
+  max-width: 90%;
+  margin-bottom: 10px;
 }
 
 .card {
@@ -43,7 +46,7 @@ nav {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-button {
+#buttons-post button {
   border-radius: 50px 50px 50px 50px;
   margin-bottom: 5px;
 }
@@ -83,10 +86,4 @@ button {
 
 .title-post {
   border-bottom: 1px solid rgb(229, 233, 236);
-}
-
-footer {
-  border-top: 1px solid rgb(229, 233, 236);
-  margin: 0px auto;
-  width: 90%;
 }
