@@ -20,7 +20,26 @@ footer {
 }
 
 .list-media-icons li {
-  padding: 6px 12px 0px 0px;
+  padding: 6px 12px 0px 6px;
+}
+
+.title-footer {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: rgb(229, 233, 236);
+}
+
+.title-footer h2 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.freepik-attribute {
+  font-size: 0.7em;
 }
 
 .fa:hover {
