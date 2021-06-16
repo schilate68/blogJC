@@ -46,6 +46,9 @@ nav {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+blockquote {
+  margin: 12px 25px;
+}
 #buttons-post button {
   border-radius: 50px 50px 50px 50px;
   margin-bottom: 5px;
@@ -129,4 +132,36 @@ nav {
   background-color: white;
   padding: 10px 10px 10px 10px;
   margin-right: 10px;
+}
+
+/* media queris*/
+
+@media (max-width: 280px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  nav input {
+    width: 100px;
+  }
+
+  blockquote {
+    margin: 10px 20px 10px 20px;
+  }
+}
+
+@media (min-width: 281px) and (max-width: 320px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  nav input {
+    width: 130px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container-post {
+    margin: 50%;
+  }
 }
