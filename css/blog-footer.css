@@ -38,6 +38,10 @@ footer {
   font-size: 1em;
 }
 
+.freepik-attribute a {
+  color: inherit;
+}
+
 .freepik-attribute {
   font-size: 0.7em;
 }
@@ -45,6 +49,7 @@ footer {
 .fa:hover {
   opacity: 0.7;
 }
+
 .list-media-icons .fa {
   padding: 10px;
   font-size: 20px;
