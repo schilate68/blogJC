@@ -1,0 +1,29 @@
+.author-bio {
+  display: flex;
+  padding-top: 15px;
+  margin: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid rgb(229, 233, 236);
+}
+
+.author-bio img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+.bio-text p {
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+.bio-text h4 {
+  margin: 8px 0 10px 0;
+}
+
+.job-author {
+  margin-left: 10px;
+  font-size: 0.8em;
+  font-weight: normal;
+}
