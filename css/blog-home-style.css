@@ -1,5 +1,6 @@
 @import url("blog-footer.css");
 @import url("blog-card-home.css");
+@import url("blog-nav-style.css");
 
 body {
   margin: 0px;
@@ -11,30 +12,26 @@ a {
   text-decoration: none;
 }
 
+#nav-bar a:visited {
+  color: inherit;
+}
+#blogs a:visited {
+  color: inherit;
+}
+
 img {
   width: 100%;
   max-height: 253px;
 }
 
-nav {
-  display: flex;
-  width: 100%;
-  padding: 20px;
-  align-items: center;
-  max-width: 90%;
-}
-
-nav form {
-  margin-left: auto;
+/*figure*/
+figure {
+  margin: 0;
 }
 
 #container-posts {
   margin: 0px auto;
   width: 90%;
-}
-
-#intro h3 {
-  padding: 8px;
 }
 
 #title {
@@ -47,14 +44,29 @@ nav form {
   float: left;
 }
 
-#title-nav {
-  width: 100px;
-}
-
 .caption {
   font-size: 0.7em;
   border: unset;
   text-decoration: none !important;
+}
+
+/*buttons to eliminate after passing review*/
+#buttons-post button {
+  border-radius: 50px 50px 50px 50px;
+  margin-bottom: 5px;
+}
+
+#buttons-post {
+  margin: 20px 0 20px 0px;
+  padding: 10px;
+}
+
+#buttons-post button {
+  color: white;
+  border: 1px solid rgb(63, 113, 206);
+  background-color: rgb(63, 113, 206);
+  padding: 10px 10px 10px 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 280px) {
@@ -63,7 +75,16 @@ nav form {
   }
 
   nav input {
-    width: 100px;
+    width: 80px;
+  }
+  #nav-item1 {
+    width: 80px;
+  }
+
+  #nav-item2 {
+    margin: auto 10px;
+    padding-left: 0;
+    font-size: 1.2em;
   }
 }
 
@@ -73,7 +94,19 @@ nav form {
   }
 
   nav input {
-    width: 130px;
+    width: 90px;
+  }
+
+  #nav-item2 {
+    margin: auto auto;
+    padding-left: 0;
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 539px) {
+  nav input {
+    width: 100px;
   }
 }
 

@@ -15,3 +15,11 @@
 .card-content {
   line-height: 4px;
 }
+
+.card-content h3 {
+  margin-top: 02px;
+}
+
+#intro h3 {
+  padding: 2px;
+}

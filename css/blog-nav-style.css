@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px 20px 20px;
+  align-items: center;
+  max-width: 90%;
+  background-color: #007bb5;
+  color: antiquewhite;
+}
+
+nav form {
+  margin-left: auto;
+}
+
+#title-nav {
+  width: 100px;
+}
+
+#nav-list {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0;
+}
+
+#nav-item2 {
+  margin: auto auto;
+  padding-left: 8px;
+  font-size: 25px;
+  font-weight: 500;
+}
